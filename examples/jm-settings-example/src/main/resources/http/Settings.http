@@ -1,0 +1,11 @@
+
+### 获取配置
+GET http://127.0.0.1:9001/bAdmin/v1/settings/byKeyword?keyword=settings.key
+#Accept: application/json
+
+### 添加配置
+POST http://127.0.0.1:9001/bAdmin/v1/settings
+Content-Type: application/x-www-form-urlencoded
+
+keyword=settings.key&content={}
+

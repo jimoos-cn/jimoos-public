@@ -14,6 +14,7 @@
         <module>starter</module>
         <module>build-parent</module>
         <module>migration</module>
+        <module>examples</module>
     </modules>
 
     <name>jimoos-public</name>

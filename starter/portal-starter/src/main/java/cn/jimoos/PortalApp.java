@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Portal APP
  *
- * @author chenqisheng
+ * @author keepcleargas
  */
 @SpringBootApplication(scanBasePackages = {"cn.jimoos"})
 public class PortalApp {

@@ -8,22 +8,19 @@
         <version>0.0.1</version>
         <relativePath>../build-parent/pom.xml</relativePath>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>jm-addons-parent</artifactId>
+    <artifactId>jm-addons-examples-parent</artifactId>
+    <description>jm addons examples parent</description>
+    <modules>
+        <module>jm-settings-example</module>
+    </modules>
     <packaging>pom</packaging>
 
-    <name>jm-addons-parent</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <sonar.projectKey>jimoos-public</sonar.projectKey>
-        <sonar.moduleKey>${project.groupId}:${project.artifactId}:${sonar.projectKey}</sonar.moduleKey>
     </properties>
-    <modules>
-        <module>@/base/jm-ping</module>
-        <module>@/base/jm-settings</module>
-        <module>@/base/jm-utils</module>
-    </modules>
 </project>
