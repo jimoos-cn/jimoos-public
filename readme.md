@@ -1,5 +1,7 @@
 # jimoos-public 公开库
 
+![Build Status](https://github.com/jimoos-cn/jimoos-public/workflows/Java%20CI%20with%20Maven/badge.svg)
+
 ## 项目构建
 
 `mvn clean package -Dmaven.test.skip=true -s docker/settings.xml`
