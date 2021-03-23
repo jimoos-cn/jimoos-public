@@ -41,6 +41,28 @@
         </dependency>
         <dependency>
             <groupId>cn.jimoos</groupId>
+            <artifactId>jm-api-tracer</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <!-- request/response 跟踪-->
+        <dependency>
+            <groupId>org.zalando</groupId>
+            <artifactId>logbook-spring-boot-starter</artifactId>
+            <version>2.4.1</version>
+        </dependency>
+        <!-- ua 解析 -->
+        <dependency>
+            <groupId>com.github.ua-parser</groupId>
+            <artifactId>uap-java</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.jimoos</groupId>
+            <artifactId>jm-settings-example</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.jimoos</groupId>
             <artifactId>jm-settings-example</artifactId>
             <version>${project.version}</version>
         </dependency>
